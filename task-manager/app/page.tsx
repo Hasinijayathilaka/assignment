@@ -1,7 +1,6 @@
-export default function Home() {
-  return (
-    <h1 className="text-3xl font-bold text-blue-500">
-      Tailwind is working!
-    </h1>
-  );
+// app/page.tsx
+import { redirect } from 'next/navigation';
+
+export default function HomePage() {
+  redirect('/login');
 }
