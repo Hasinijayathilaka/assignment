@@ -1,0 +1,1 @@
+INSERT INTO "public"."tasks" ("id", "user_id", "title", "due_date", "note", "priority", "completed", "created_at", "deleted_at", "subtasks", "tags", "recurring_interval") VALUES ('891e5369-cb6e-40ca-85e7-7917235b2158', 'a0beec36-c1db-4c39-bb8f-2bfe9693ff59', 'trip', '2028-07-21', 'going to nuwaraeliya', 'Medium', 'false', '2025-11-09 12:42:04.457746+00', null, '[]', '{}', null);
